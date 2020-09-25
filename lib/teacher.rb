@@ -4,4 +4,5 @@ class Teacher < User
 
   def teach 
     Array.random
+  end
 end
