@@ -3,4 +3,8 @@ class Student < User
     @first_name = first_name
   end
   
+  def initialize
+    @knowledge = []
+  end
+  
 end
